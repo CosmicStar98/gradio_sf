@@ -1,5 +1,5 @@
 --@name Gamer Radio V3
---@author
+--@author CosmicStar98 [STEAM_0:0:634049946]
 --@shared
 --@include ./mp/musicplayer_libs.txt
 --@include ./mp/musicplayer_songlist.txt
@@ -39,7 +39,7 @@ local isPaused = 0
 -- [END] do not modify!!!
 
 
-local SongList = require("./mp/musicplayer_songlist.txt") -- Default song playlist (IMPORTANT: do not publish your own, as your files/account may get rate limited from mass public use!)
+local SongList = require("./mp/musicplayer_songlist.txt") -- Default song playlist (IMPORTANT: do not publish your own FROM CLOUD SERVICES LIKE GDRIVE, as your files/account may get rate limited or flagged as bot activity from mass public use!)
 
 
 if SERVER then
@@ -425,8 +425,8 @@ else
     end
 
     print([[
-     ⛧ 『 Welcome to the radio! 』 ⛧
-      ♦ Heres the list of available commands:
+     Welcome to the radio!
+      > Heres the list of available commands:
 
     - ?load <NUMBER>  ::  Jumps to a song id in the playlist
     - ?back, ?next <NUMBER>  ::  FF or RW the curr song
